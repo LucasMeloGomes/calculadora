@@ -13,17 +13,17 @@ function imc () {
         let classificacao = '';
 
         if (valorIMC < 18.5){
-            classificacao = 'abaixo do peso.';
+            classificacao = 'você precissa comer daqui a pouco o vento leva';
         }else if (valorIMC < 25) {
-            classificacao = 'com peso ideal. Parabéns!!!';
+            classificacao = 'parabens você existe';
         }else if (valorIMC < 30){
-            classificacao = 'levemente acima do peso.';
+            classificacao = 'vc é uma montanha.';
         }else if (valorIMC < 35){
-            classificacao = 'com obesidade grau I.';
+            classificacao = 'você é um meteorito.';
         }else if (valorIMC < 40){
-            classificacao = 'com obesidade grau II';
+            classificacao = 'você é uma lua';
         }else {
-            classificacao = 'com obesidade grau III. Cuidado!!';
+            classificacao = 'parabens você é um planeta';
         }
 
         resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
