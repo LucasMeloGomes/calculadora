@@ -26,10 +26,10 @@ function imc () {
             classificacao = 'parabens você é um planeta';
         }
 
-        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
+        resultado.textContent = `${nome} seu IMC é ${valorIMC}  ${classificacao}`;
        
     }else {
-        resultado.textContent = 'Preencha todos os campos!!!';
+        resultado.textContent = 'deixa de ser burro namoral';
     }
 
 }
