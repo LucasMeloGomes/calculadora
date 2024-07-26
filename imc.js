@@ -17,13 +17,13 @@ function imc () {
         }else if (valorIMC < 25) {
             classificacao = 'parabens você existe';
         }else if (valorIMC < 30){
-            classificacao = 'vc é uma montanha.';
+            classificacao = 'ta gordinho né filho.';
         }else if (valorIMC < 35){
-            classificacao = 'você é um meteorito.';
+            classificacao = 'parabens você é uma lua :).';
         }else if (valorIMC < 40){
-            classificacao = 'você é uma lua';
+            classificacao = 'parabens você é um planeta :);
         }else {
-            classificacao = 'parabens você é um planeta';
+            classificacao = 'parabens você é um buraco negro :)';
         }
 
         resultado.textContent = `${nome} seu IMC é ${valorIMC}  ${classificacao}`;
