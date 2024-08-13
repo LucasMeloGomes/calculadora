@@ -21,7 +21,7 @@ function imc () {
         }else if (valorIMC < 35){
             classificacao = 'parabens você é uma lua .';
         }else if (valorIMC < 40){
-            classificacao = 'parabens você é um planeta ;
+            classificacao = 'parabens você é um planeta. ';
         }else {
             classificacao = 'parabens você é um buraco negro ';
         }
